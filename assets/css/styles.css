@@ -7,10 +7,10 @@
   --bold-font: 700;
   --bolder-font: 900;
   --bg-color: #fcfcfc;
-  --primary-color: #4756df;
-  --secondary-color: #ff7235;
-  --primary-shadow: #8b8eaf;
-  --secondary-shadow: #a17a69;
+  --color-primario: #3c4acf;
+  --color-secundario: #ff7f2a;
+  --sombra-primaria: #8b8eaf;
+  --sombra-secundaria: #a17a69;
   --bottom-margin: 0.5rem;
   --bottom-margin-2: 1rem;
   --line-height: 1.7rem;
@@ -35,11 +35,11 @@ ul {
 
 a {
   text-decoration: none;
-  color: var(--primary-color);
+  color: var(--color-primario);
 }
 
 a:hover {
-  color: var(--secondary-color);
+  color: var(--color-secundario);
 }
 
 body {
@@ -60,16 +60,16 @@ nav {
 }
 
 nav h1 {
-  color: var(--primary-color);
+  color: var(--color-primario);
 }
 
 nav a {
-  color: var(--primary-color);
+  color: var(--color-primario);
   transition: var(--transicion);
 }
 nav a:hover {
-  color: var(--secondary-color);
-  border-bottom: 2px solid var(--secondary-color);
+  color: var(--color-secundario);
+  border-bottom: 2px solid var(--color-secundario);
 }
 
 nav ul {
@@ -82,7 +82,7 @@ nav ul li {
 }
 
 .menu-hamburguesa {
-  color: var(--primary-color);
+  color: var(--color-primario);
   font-size: 2rem;
   border: 0;
   background-color: transparent;
@@ -108,7 +108,7 @@ nav ul li {
   width: 25rem;
   padding: 0.625rem;
   border-radius: 6px;
-  box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+  box-shadow: 0px 2px 15px 2px var(--sombra-primaria);
 }
 
 .bio h1 {
@@ -128,6 +128,8 @@ nav ul li {
 .mas-sobre h2 {
   margin-bottom: var(--bottom-margin);
   text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 2px 15px 2px var(--sombra-primaria);
 }
 
 .mas-sobre p {
@@ -158,7 +160,7 @@ nav ul li {
 .icon-card {
   background-color: #fff;
   border-radius: 11px;
-  box-shadow: 0 3px 10px var(--secondary-shadow);
+  box-shadow: 0 3px 10px var(--sombra-secundaria);
   padding: 20px;
   margin: 10px;
 }
@@ -177,13 +179,13 @@ nav ul li {
   margin: 0 auto;
   padding: 0.938rem;
   border-radius: 5px;
-  box-shadow: 0 3px 10px var(--secondary-shadow);
+  box-shadow: 0 3px 10px var(--sombra-secundaria);
 }
 
 .formulario-contacto-contenedor label {
   line-height: 2.7em;
   font-weight: var(--bold-font);
-  color: var(--primary-color);
+  color: var(--color-primario);
 }
 
 .formulario-contacto-contenedor textarea {
@@ -197,14 +199,14 @@ nav ul li {
   padding-bottom: 10px;
   border-radius: 5px;
   border: none;
-  border: 2px outset var(--primary-color);
+  border: 2px outset var(--color-primario);
   font-size: 0.875rem;
   outline: none;
 }
 
 .input-field::placeholder {
   padding: 0.5rem;
-  color: var(--primary-color);
+  color: var(--color-primario);
 }
 
 .submit-btn {
@@ -212,7 +214,7 @@ nav ul li {
   padding: 10px;
   margin: 10px 0;
   background-color: #fff;
-  border: 2px solid var(--primary-color);
+  border: 2px solid var(--color-primario);
   border-radius: 5px;
   font-size: 1rem;
   font-weight: var(--bold-font);
@@ -220,8 +222,8 @@ nav ul li {
 }
 
 .submit-btn:hover {
-  background-color: var(--primary-color);
-  border: 2px solid var(--primary-color);
+  background-color: var(--color-primario);
+  border: 2px solid var(--color-primario);
   cursor: pointer;
 }
 
